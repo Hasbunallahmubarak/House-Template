@@ -1,4 +1,62 @@
 @charset "UTF";
+*{margin: 0px;box-sizing: border-box;}
+body{font-family: Lato,sans-serif;}
+#content {
+	width: 90%;
+	margin: 0px auto;
+}
+h1,h2 {
+	font-weight: lighter;
+	margin: 30px 0px;
+}
+#content div:not(.last div) {
+	width: 50%;
+	float: left;
+	padding: 25px 0px;
+}
+p {
+	font-size: 25px;
+	color: rgb(80,80,80);
+	line-height: 40px;
+	margin: 20px 0px;
+	display:block;
+}
+h1 {font-size: 60px;}
+h2 {
+	color: rgb(50,50,50);
+	font-size: 30px;
+}
+h4{font-weight: lighter;}
+.first {color: rgba(50,50,50,0.3);}
+section {overflow: hidden;}
+img {
+	padding:20px;
+	padding-left: 0px;
+}
+.last {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.last div {
+	width: 33.3%;
+	float: left;
+	color: #fff;
+	padding: 15px;
+	background-color: #000;
+}
+div.in {background-color: rgba(0,0,0,0.75);}
+.last h4 {margin: 20px 0px;}
+.in,.info{text-align: center;}
+div.info{background-color: rgba(0,0,0,0.45);}
+.last h2{color: #fff;}
+a{color: inherit;text-decoration: none;}
+a:hover{text-decoration: underline;}
+footer {margin: 20px 0px;color: #555;}
+@media screen and (max-width:750px){
+	.last{display: block;}
+	#content div:not(.last div){width: 100%;}
+	.last div{width: 100%;}
+}@charset "UTF";
 *{margin: 0px;box-sizing: border-box;}body{font-family: Lato,sans-serif;}
 #content{width: 90%;margin: 0px auto;}h1,h2{font-weight: lighter;margin: 30px 0px;}
 #content div:not(.last div){width: 50%;float: left;padding: 25px 0px;}
