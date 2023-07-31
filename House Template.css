@@ -56,19 +56,4 @@ footer {margin: 20px 0px;color: #555;}
 	.last{display: block;}
 	#content div:not(.last div){width: 100%;}
 	.last div{width: 100%;}
-}@charset "UTF";
-*{margin: 0px;box-sizing: border-box;}body{font-family: Lato,sans-serif;}
-#content{width: 90%;margin: 0px auto;}h1,h2{font-weight: lighter;margin: 30px 0px;}
-#content div:not(.last div){width: 50%;float: left;padding: 25px 0px;}
-p{font-size: 25px;color: rgb(80,80,80);line-height: 40px;margin: 20px 0px;display:block;}
-h2{color: rgb(50,50,50);font-size: 30px;}h1{font-size: 60px;}.first{color: rgba(50,50,50,0.3);}
-section{overflow: hidden;}img{padding:20px;padding-left: 0px;}h4{font-weight: lighter;}
-.last div{width: 33.3%;float: left;color: #fff;padding: 10px;background-color: #000;}
-div.in{background-color: rgba(0,0,0,0.75);padding-bottom: 30px;}.last h3,.last h4{padding-bottom: 20px;}
-.in,.info{text-align: center;}div.in{padding-bottom: 48px;} div.info{background-color: rgba(0,0,0,0.45);padding-bottom: 124px;}
-.last h2{color: #fff;}a{color: inherit;text-decoration: none;}a:hover{text-decoration: underline;}
-footer{margin: 20px 0px;color: #555;}
-@media screen and (max-width:750px){
-	#content div:not(.last div){width: 100%;}
-	.last div{width: 100%;}
 }
